@@ -108,6 +108,11 @@ src/
 
 ---
 
+## Setup
+
+1. Create a `.env` file in the root of the project.
+2. Add the following environment variables:
+
 ## 📩 **Contact Me**
 
 Feel free to reach out for collaborations, job opportunities, or even a friendly chat about movies!
