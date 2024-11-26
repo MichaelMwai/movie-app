@@ -14,7 +14,7 @@ function Home() {
     overview:
       "An epic journey of a passionate developer and fitness coach seeking to revolutionize the tech industry!",
     release_date: "2024-11-25",
-    poster_path: "public/mission-employable-movie-poster.jpg",
+    poster_path: "/assets/mission-employable-movie-poster.jpg",
     vote_average: 10.0,
   };
 
