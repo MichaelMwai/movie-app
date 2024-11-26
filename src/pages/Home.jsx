@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { searchMovies, getPopularMovies } from "../services/api";
+import MichaelMoviePoster from "../assets/mission-employable-movie-poster.jpg";
 import MovieCard from "../components/MovieCard";
 import "../css/Home.css";
 
@@ -14,7 +15,7 @@ function Home() {
     overview:
       "An epic journey of a passionate developer and fitness coach seeking to revolutionize the tech industry!",
     release_date: "2024-11-25",
-    poster_path: "/mission-employable-movie-poster.jpg",
+    poster_path: MichaelMoviePoster,
     vote_average: 10.0,
   };
 
