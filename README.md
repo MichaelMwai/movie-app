@@ -117,7 +117,7 @@ src/
 
 Feel free to reach out for collaborations, job opportunities, or even a friendly chat about movies!
 
-- **Email**: michaeldmwai@example.com
+- **Email**: michaeldmwai@gmail.com
 - **LinkedIn**: [https://www.linkedin.com/in/michael-mwai-6b351216a/](#)
 
 ---
