@@ -1,17 +1,19 @@
 import { Link } from "react-router-dom";
 import "../css/Navbar.css";
+
 import { IoMdHome } from "react-icons/io";
 import { MdFavoriteBorder } from "react-icons/md";
 import { MdOutlineWatchLater } from "react-icons/md";
-
 import { MdMovie } from "react-icons/md";
+
+import WebsiteLogo from "../assets/watchmichael-logo.png";
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="navbar-brand">
+      <div>
         <Link to="/" className="nav-link">
-          Michael's Movie App <MdMovie />
+          <img className="website-logo" src={WebsiteLogo} alt="Website-logo" />
         </Link>
       </div>
       <div className="navbar-links">
