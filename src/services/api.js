@@ -28,3 +28,15 @@ export const searchMovies = async (query) => {
     console.error("Error searching movies:", error);
   }
 };
+
+export const getUpcomingMovies = async () => {
+  try {
+    const response = await fetch(
+      `${BASE_URL}/movie/upcoming?api_key=${API_KEY}&language=en-US&page=1`
+    );
+    const data = await response.json();
+    return data.results;
+  } catch (error) {
+    console.error("Error fetching upcoming movies:", error);
+  }
+};
